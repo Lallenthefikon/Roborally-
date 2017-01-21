@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Battlefield">
+      <UniqueIdentifier>{8c403f25-6ec8-4720-8265-3edf51029608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Battlefield">
+      <UniqueIdentifier>{68cf8aad-399e-4961-8271-404efa66a364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainMeny">
+      <UniqueIdentifier>{5d397cbd-6301-489d-b49c-cef1f847d4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainMeny">
+      <UniqueIdentifier>{c7cd9c48-56c7-48af-b388-1c0cc6d7a5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapEditor">
+      <UniqueIdentifier>{2517c88c-d434-4eaa-8cae-1b13c154814b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MapEditor">
+      <UniqueIdentifier>{cddabd1c-fc87-4578-b425-c866ce304e01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="variablesAndConstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoboRally.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Battlefield.cpp">
+      <Filter>Source Files\Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFactory.cpp">
+      <Filter>Source Files\Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityHandler.cpp">
+      <Filter>Source Files\Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
+      <Filter>Source Files\Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="Twitch_Robot.cpp">
+      <Filter>Source Files\Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMeny.cpp">
+      <Filter>Source Files\MainMeny</Filter>
+    </ClCompile>
+    <ClCompile Include="MenyRescourses.cpp">
+      <Filter>Source Files\MainMeny</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitySelector.cpp">
+      <Filter>Source Files\MapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditor.cpp">
+      <Filter>Source Files\MapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditorRescorces.cpp">
+      <Filter>Source Files\MapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestateFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScreen_0.cpp">
+      <Filter>Source Files\MainMeny</Filter>
+    </ClCompile>
+    <ClCompile Include="HudFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GenericFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="variablesAndConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoboRally.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Twitch_Robot.h">
+      <Filter>Header Files\Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>Header Files\Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityHandler.h">
+      <Filter>Header Files\Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityFactory.h">
+      <Filter>Header Files\Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="Battlefield.h">
+      <Filter>Header Files\Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMeny.h">
+      <Filter>Header Files\MainMeny</Filter>
+    </ClInclude>
+    <ClInclude Include="MenyRescourses.h">
+      <Filter>Header Files\MainMeny</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorRescorces.h">
+      <Filter>Header Files\MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditor.h">
+      <Filter>Header Files\MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="EntitySelector.h">
+      <Filter>Header Files\MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScreen_0.h">
+      <Filter>Header Files\MainMeny</Filter>
+    </ClInclude>
+    <ClInclude Include="HudFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
