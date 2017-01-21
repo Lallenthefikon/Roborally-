@@ -12,6 +12,6 @@ variablesAndConstants* variablesAndConstants::getInstance(){
 
 // Privates
 variablesAndConstants::variablesAndConstants()
-{
+{ /// inget här
 }
 
