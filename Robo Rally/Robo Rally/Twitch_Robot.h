@@ -17,6 +17,8 @@ public:
 	virtual void setPos(sf::Vector2i newPos);
 
 private:
+
+	sf::Vector2i mGridPos;
 	
 };
 
