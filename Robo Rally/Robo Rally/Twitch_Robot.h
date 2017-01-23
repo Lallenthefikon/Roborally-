@@ -1,10 +1,14 @@
 #pragma once
 
 #include "Robot.h"
+#include "Animations.h"
 
 class Twitch_Robot : public Robot
 {
 public:
+
+	enum states {IDLE};
+
 	Twitch_Robot(sf::Vector2i pos);
 	virtual ~Twitch_Robot();
 
@@ -18,7 +22,11 @@ public:
 
 private:
 
+	void setAnimation();
+	states mCurrentState;
+	sf::Sprite mTwitchRobo;
+
 	sf::Vector2i mGridPos;
-	
+	Animations::Textures* mCurrentAnimations;
 };
 
